@@ -65,7 +65,7 @@ while True:
             </body>
         </html>
         """
-	msg.attach(MIMEText(html, 'html'))
+        msg.attach(MIMEText(html, 'html'))
         server = smtplib.SMTP('your smtp server', port)#input your info here
         server.starttls()
         server.login("your email", "your password")#input your info here
