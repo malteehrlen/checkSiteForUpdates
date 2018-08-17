@@ -6,4 +6,4 @@ Also, probably pipe stdout to a log so you can see if the script is running.
 File list:
 checkSiteForUpdates.py
 Readme.txt (this file)
-LICENCE.txt
+LICENCE
